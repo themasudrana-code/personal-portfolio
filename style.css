@@ -17,8 +17,7 @@ img{
 
 .button a {
     padding: 10px 50px;
-    background-image: linear-gradient(to right top, #ff1d1d, #fb3f31, #f75542, #f26754, #eb7765);
-    border: red;
+    background-image: linear-gradient(to right top, #ed4b6f, #ee4b78, #ee4c81, #ed4d8b, #ec4f94);
     cursor: pointer;
     margin-top: 40px;
     color: #fff;
