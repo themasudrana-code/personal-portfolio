@@ -56,7 +56,7 @@ p{
     letter-spacing: 1px;
 }
 .home-sec{
-    background-image: url(img/header-bg.png);
+    background-image: url(./img/header-bg.png);
     background-size: cover;
     background-position: fixed;
     background-repeat: no-repeat;
@@ -67,7 +67,7 @@ p{
     font-weight: 800;
 }
 .bio-sec{
-    background-image: url(img/biography-bg.png);
+    background-image: url(./img/biography-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -75,13 +75,13 @@ p{
     padding-left: 60px;
 }
 .work-sec{
-    background-image: url(img/latest-work-bg.png);
+    background-image: url(./img/latest-work-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .client-sec{
-    background-image: url(img/footer-bg.png);
+    background-image: url(./img/footer-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
