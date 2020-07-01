@@ -1,0 +1,131 @@
+body{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+.container{
+    padding: 6rem 10rem;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+.button{
+    margin-top: 40px;
+}
+
+.button a {
+    padding: 10px 50px;
+    background-image: linear-gradient(to right top, #ff1d1d, #fb3f31, #f75542, #f26754, #eb7765);
+    border: red;
+    cursor: pointer;
+    margin-top: 40px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+.inline{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.col-50{
+    max-width: 49%;
+}
+
+.col-30{
+    max-width: 32%;
+}
+
+h1{
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    line-height: 45px;
+}
+p{
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1px;
+}
+.home-sec{
+    background-image: url(../img/header-bg.png);
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
+}
+.global h1 span{
+    color:#EC4E8D;
+    font-size: 38px;
+    font-weight: 800;
+}
+.bio-sec{
+    background-image: url(../img/biography-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bio-content{
+    padding-left: 60px;
+}
+.work-sec{
+    background-image: url(../img/latest-work-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.client-sec{
+    background-image: url(../img/footer-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.text-center{
+    text-align: center;
+}
+.client-speace.text-center h3, .client-speace.text-center h4 {
+    margin: 3px;
+    font-weight: 300;
+}
+.client-speace.text-center h3{
+    font-weight: 500;
+}
+.client-speace.text-center h4 {
+    margin-bottom: 28px;
+}
+.client-speace.text-center p {
+    max-width: 450px;
+    margin:0 auto;
+}
+.gmail {
+    text-align: center;
+    padding: 22px;
+    background: #ff448e;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 60px;
+    border-radius: 6px;
+    color: #fff;
+}
+.gmail p {
+    font-size: 13px;
+    font-weight: 400;
+}
+.gmail p span {
+    font-size: 20px;
+    font-weight: 600;
+}
+.footer {
+    padding-top: 120px;
+    text-align: center;
+}
+section.client-sec .container {
+    padding-bottom: 35px;
+}
